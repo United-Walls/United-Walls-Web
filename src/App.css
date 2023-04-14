@@ -2,37 +2,86 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.About, .Contact, .Footer {
+  animation: 1s ease 0s 1 slideFromTop;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ContentGraphics img {
+  height: 75vh;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin: 1rem;
+  border: 5px solid var(--textColor);
+  box-shadow:
+      0px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+      0px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+      0px 12.5px 10px rgba(0, 0, 0, 0.035),
+      0px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+      0px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+      0px 100px 80px rgba(0, 0, 0, 0.07)
+  ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Downloads {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.Downloads img {
+  width: 180px;
+  object-fit: contain;
+  padding: 1rem 0.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.Downloads .playstore {
+  width: 220px;
+}
+
+.ParaContainer {
+  background-color: var(--bgSecondaryColor);
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  width: 50%;
+}
+
+.ParaContainer.links, .ParaContainer.credits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+
+.link, .credit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+}
+
+.icon {
+  margin: 0 0.2rem;
+}
+
+.icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 99rem;
+}
+
+.infoCredit {
+  display: flex;
+  flex-direction: column;
+}
+
+.byLine {
+  font-size: 0.75rem;
+}
+
+@media screen and (max-width: 570px) {
+  .ParaContainer {
+    width: 80%;
   }
 }

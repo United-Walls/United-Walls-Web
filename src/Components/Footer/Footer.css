@@ -1,0 +1,34 @@
+.Footer {
+    text-align: start;
+    background-color: var(--bgSecondaryColor);
+    padding: 2rem;
+    margin: 1rem auto;
+}
+
+.Footer .FooterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Footer .FooterContent div {
+    cursor: pointer;
+}
+
+.Footer .FooterContent {
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem
+}
+
+.Copyright {
+    text-align: center;
+}
+
+@media screen and (max-width: 570px) {
+    .Footer .FooterContainer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
