@@ -13,8 +13,8 @@ const Home = () => {
                 <h1>Download Now</h1>
             </div>
             <div className="Downloads">
-                <a href="https://play.google.com/store/apps/details?id=com.paraskcd.unitedwalls" target="_blank" rel="noopener noreferrer"><img className="appstore reveal" src={ appstore } alt="appstore" /></a>
-                <a href="https://testflight.apple.com/join/VBnQhYxF" target="_blank" rel="noopener noreferrer"><img className="playstore reveal" src={ playstore } alt="playstore" /></a>
+                <a href="https://play.google.com/store/apps/details?id=com.paraskcd.unitedwalls" target="_blank" rel="noopener noreferrer"><img className="playstore reveal" src={ playstore } alt="playstore" /></a>
+                <a href="https://testflight.apple.com/join/VBnQhYxF" target="_blank" rel="noopener noreferrer"><img className="appstore reveal" src={ appstore } alt="appstore" /></a>
             </div>
             <div className="ContentGraphics">
                 <img className="reveal" src={ mockup } alt="Mockup" />
