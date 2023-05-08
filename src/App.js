@@ -7,7 +7,8 @@ import AboutContent from './content/About/AboutContent';
 import ContactContent from './content/Contact/ContactContent';
 
 const App = ({
-  activeScreenIndex
+  activeScreenIndex,
+  withError
 }) => {
   const [ activeScreen, setActiveScreen ] = useState("");
 
@@ -47,7 +48,7 @@ const App = ({
 
   return (
     <div className="App">
-      <Header activeScreen={activeScreen} setActiveScreen={
+      <Header withError={withError} activeScreen={activeScreen} setActiveScreen={
         (screen) => {
           console.log(screen);
           setActiveScreen(screen)

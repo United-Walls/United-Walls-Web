@@ -17,7 +17,7 @@ const Footer = () => {
             </div>
             <div className="FooterContent">
                 <h2>Downloads</h2>
-                <a href="https://testflight.apple.com/join/VBnQhYxF" target="_blank" rel="noopener noreferrer"><div>iOS download</div></a>
+                <a href="https://apps.apple.com/us/app/united-walls/id6446158751" target="_blank" rel="noopener noreferrer"><div>iOS download</div></a>
                 <a href="https://play.google.com/store/apps/details?id=com.paraskcd.unitedwalls" target="_blank" rel="noopener noreferrer"><div>Android download</div></a>
             </div>
         </div>

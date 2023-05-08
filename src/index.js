@@ -12,7 +12,7 @@ import Contact from './Screens/Contact';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App activeScreenIndex="Home"/>
+    element: <App activeScreenIndex="Home"/>,
   },
   {
     path: "aboutUs",
@@ -21,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "contact",
     element: <Contact />
+  },
+  {
+    path: "*",
+    element: <App activeScreenIndex="Home" withError={true} />,
   }
 ]);
 

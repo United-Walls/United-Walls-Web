@@ -6,7 +6,8 @@ import { FadeLoader } from 'react-spinners';
 
 const Header = ({
   activeScreen,
-  setActiveScreen
+  setActiveScreen,
+  withError
 }) => {
   const [ banner, setBanner ] = useState("");
   const [ bannerLoaded, setBannerLoaded ] = useState(false);
@@ -87,7 +88,19 @@ const Header = ({
                   ?
                   (
                     <div className="HeaderInfo">
-                      <p>Enjoy your devices with our beautiful AI Generated Design Collections, curated by us, as well as our own handcrafted, beautiful and artistic designs.</p>
+                      {
+                        withError ?
+                        (
+                          <p>Hello, I'm Captain 404. It looks like we got lost somewhere, but fear not, because Captain 404 will help you still get the best Walls for your devices, just scroll down and download our App :)</p>
+                        )
+
+                        :
+
+                        (
+                          <p>Enjoy your devices with our beautiful AI Generated Design Collections, curated by us, as well as our own handcrafted, beautiful and artistic designs.</p>
+                        )
+                      }
+                      
                     </div>
                   )
                   :
