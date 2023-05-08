@@ -16,7 +16,7 @@ const Header = ({
   const [ activeContact, setActiveContact ] = useState("");
 
   useEffect(() => {
-    axios.get("http://unitedwalls.paraskcd.com/api/walls/mostDownloaded").then((resp) => {
+    axios.get("https://unitedwalls.paraskcd.com/api/walls/mostDownloaded").then((resp) => {
       const random = Math.floor(Math.random() * resp.data.length);
       const randomWall = resp.data[random];
       setBanner(randomWall.file_url);
