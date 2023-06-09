@@ -1,7 +1,7 @@
 import React from 'react'
-import mockup from '../Assets/Graphics/mockup.png'
-import mockup2 from '../Assets/Graphics/mockup2.png'
-import mockup3 from '../Assets/Graphics/mockup3.png'
+import mockup from '../Assets/Graphics/mockup.webp'
+import mockup2 from '../Assets/Graphics/mockup2.webp'
+import mockup3 from '../Assets/Graphics/mockup3.webp'
 import appstore from '../Assets/Graphics/appstore.svg'
 import playstore from '../Assets/Graphics/playstore.png'
 

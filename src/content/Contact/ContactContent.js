@@ -1,6 +1,6 @@
 import React from 'react'
-import email from '../../Assets/Graphics/email.png'
-import titter from '../../Assets/Graphics/titter.png'
+import email from '../../Assets/Graphics/email.webp'
+import titter from '../../Assets/Graphics/titter.webp'
 
 const ContactContent = () => {
   return (

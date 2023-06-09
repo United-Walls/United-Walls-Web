@@ -1,6 +1,6 @@
 import React from 'react'
-import telegramIcon from '../../Assets/Graphics/telegram.png'
-import githubIcon from '../../Assets/Graphics/github.png'
+import telegramIcon from '../../Assets/Graphics/telegram.webp'
+import githubIcon from '../../Assets/Graphics/github.webp'
 
 const AboutContent = () => {
   return (
